@@ -6,13 +6,12 @@ Terraform module which creates terraform backend resources on AWS.
 
 ```hcl
 module "aws_remote_backend" {
-  source = "skafte/terraform-aws-remote-backend"
+  source  = "app.terraform.io/skafte/remote-backend/aws"
 
   tags = {
     Terraform = "true"
   }
 }
-
 ```
 
 <!-- BEGIN_TF_DOCS -->
