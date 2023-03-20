@@ -38,7 +38,6 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | Region for spawning resources | `string` | n/a | yes |
 | <a name="input_dynamodb_state_lock_tags"></a> [dynamodb\_state\_lock\_tags](#input\_dynamodb\_state\_lock\_tags) | A map of tags to add to the dynaodb table containing terraform lock | `map(string)` | `{}` | no |
 | <a name="input_s3_state_backend_tags"></a> [s3\_state\_backend\_tags](#input\_s3\_state\_backend\_tags) | A map of tags to add to the s3 bucket containing terraform state | `map(string)` | `{}` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to all resources | `map(string)` | `{}` | no |

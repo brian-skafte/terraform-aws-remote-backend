@@ -1,8 +1,3 @@
-variable "aws_region" {
-  description = "Region for spawning resources"
-  type        = string
-}
-
 variable "s3_state_backend_tags" {
   description = "A map of tags to add to the s3 bucket containing terraform state"
   type        = map(string)
